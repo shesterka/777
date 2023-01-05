@@ -16,10 +16,10 @@ aside {
 
 
 aside img {
-    width: 50px;
-    float: left;
+    width: 210px;
+    margin-right: 100px;
     position: relative;
-   top: +45px;
+   top: +80px;
 }
 }
 

@@ -15,18 +15,23 @@
 <body>
 
   <aside>
-      <img src="{% static 'main/img/e70bd31s-1920.jpg' %}" alt = "Лого">
-      <span class="logo">PontAuto</span>
+      <img src="{% static 'main/img/pontauto2.jpg.png' %}" alt = "Лого">
+      <link type="image/x-icon" href="{% static 'main/img/e70bd31s-1920.jpg' %}">
+      <link type="Image/x-icon" href="/favicon.ico" rel="icon">
+
+
+
       <h3>Навигация</h3>
 
       <ul>
           <a href="{% url 'home' %}"><li><i class="fa-solid fa-house"></i> Главная</li></a>
-          <a href="{% url 'about' %}"><li><i class="fa-solid fa-bars"></i> Автопрокат</li></a>
+          <a href="{% url 'about' %}"><li><i class="fa-solid fa-car"></i> Автопрокат</li></a>
           <a href=""><li><i class=></i> Условия</li></a>
             <a href=""><li><i class=></i> Тарифы</li></a>
           <a href="{% url 'news_home' %}"><li><i class=></i> Новости</li></a>
             <a href=""><li><i class=></i> Контакты</li></a>
             <a href=""><li><i class=></i> Отзывы</li></a>
+
       </ul>
  <style>
    a {
