@@ -1,5 +1,7 @@
 body {
-    background: red;
+    background-image: url(../img/cars1.jpg);
+    background-size: 100% auto;
+   overflow: scroll;
 }
 
 aside {
