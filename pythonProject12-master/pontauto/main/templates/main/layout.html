@@ -25,12 +25,12 @@
 
       <ul>
            <a href="{% url 'home' %}"><li><i class="fa-solid fa-house"></i> Главная</li></a>
-           <a href="{% url 'about' %}"><li><i class="fa-solid fa-car"></i> Автопрокат</li></a>
-           <a href="{% url 'about' %}"><li><i class="fa-sharp fa-solid fa-file-lines"></i> Условия</li></a>
-           <a href="{% url 'about' %}"><li><i class="fa-solid fa-file-invoice-dollar"></i> Тариф</li></a>
+           <a href="{% url 'rental' %}"><li><i class="fa-solid fa-car"></i> Автопрокат</li></a>
+           <a href="{% url 'conditions' %}"><li><i class="fa-sharp fa-solid fa-file-lines"></i> Условия</li></a>
+           <a href="{% url 'tariff' %}"><li><i class="fa-solid fa-file-invoice-dollar"></i> Тариф</li></a>
            <a href=" {% url 'news_home' %}"><li><i class="fa-solid fa-newspaper"></i> Новости</li></a>
-           <a href=" {% url 'news_home' %}"><li><i class="fa-solid fa-address-card"></i> Контакты</li></a>
-           <a href=" {% url 'news_home' %}"><li><i class="fa-solid fa-comments"></i> Отзывы</li></a>
+           <a href=" {% url 'contacts' %}"><li><i class="fa-solid fa-address-card"></i> Контакты</li></a>
+           <a href=" {% url 'reviews' %}"><li><i class="fa-solid fa-comments"></i> Отзывы</li></a>
 
 
       </ul>
@@ -44,11 +44,17 @@
 
    </div>
 
-   <main>
+   <main
     {% block content %}
     {% endblock %}
   </main>
 
+  <script>
+window.replainSettings = { id: 'a654be55-2048-43f6-8e91-99ce00c067f1' };
+(function(u){var s=document.createElement('script');s.async=true;s.src=u;
+var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+})('https://widget.replain.cc/dist/client.js');
+</script>
 
 </body>
 </html>

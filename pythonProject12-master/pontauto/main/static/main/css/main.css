@@ -1,6 +1,6 @@
 body {
-    background-image: url(../img/cars1.jpg);
-    background-size: 100% auto;
+    background: #B8860B;
+
    overflow: scroll;
 }
 
