@@ -16,10 +16,10 @@ aside {
 
 
 aside img {
-    width: 210px;
+    width: 180px;
     margin-right: 100px;
     position: relative;
-   top: +80px;
+   top: -10px;
 }
 }
 
@@ -37,7 +37,7 @@ aside .logo {
 }
 
 aside h3 {
- margin-top: 50px;
+ margin-top: -10px;
  font-size: 28px;
 }
 
@@ -49,8 +49,8 @@ aside ul li {
     transition: transform .6s ease;
 }
 
-aside ul li: hover, aside ul a:hover {
-    color: #eb5959;
+aside ul li:hover, aside ul a:hover {
+    color: #FFD700;
     text-decoration: none;
     transform: scale(1.05);
 }
@@ -58,7 +58,7 @@ aside ul li: hover, aside ul a:hover {
 main .features {
     float: left;
     color: #fff;
-    marnig-top: 100px;
+    marnig-top: 200px;
     text-align: center;
     width: 75%;
 }
