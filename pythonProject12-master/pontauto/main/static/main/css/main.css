@@ -1,5 +1,5 @@
 body {
-    background: #2F4F4F;
+    background: #333;
 
    overflow: scroll;
 }
@@ -12,6 +12,8 @@ aside {
    height: 100vh;
    color: #fff;
    border-right: 5px solid #4d4d4d;
+
+
 }
 
 

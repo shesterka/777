@@ -1,5 +1,5 @@
 body {
-    background: #8B4513;
+    background: #333;
 
    overflow: scroll;
 }
@@ -11,7 +11,7 @@ body {
 }
 
 .item-content {
-   background: #413D4C;
+   background: #181818;
    padding: 40px;
 }
 .item-icon {
@@ -20,7 +20,7 @@ body {
 .item-icon:before {
    content: "";
    font-family: FontAwesome;
-   color: #F09EA3;
+   color:#F5F5DC;
    font-size: 50px;
    line-height: 1;
 }
@@ -33,26 +33,25 @@ body {
    content: "\f007";
 }
 .item-icon.tree:before {
-   content:  "\f0b1";
+   content:  "\f0ea";
 }
 
-
-.item-body {
-   color: #F5E2CD;
-   font-size: 14px;
-}
 @media (min-width: 960px) {
    .post-item {
       flex-basis: 33.333333333%;
    }
 }
+
  .tab input, .tab-content { display: none; }
    .tab {
-    font: 0.8rem/1.2 Arial, sans-serif; /* Параметры шрифта */
-    border: 1px solid #e9eaec; /* Параметры рамки */
+    font: 1 rem/1.2 Arial, sans-serif; /* Параметры шрифта */
+    border: 4px solid #181818; /* Параметры рамки */
     border-radius: 3px; /* Скругляем уголки */
-    color: #848994; /* Цвет текста */
-    margin-bottom: 10px; /* Расстояние между пунктами */
+    color: #F0F8FF; /* Цвет текста */
+    margin-bottom: 0px; /* Расстояние между пунктами */
+    margin-top:10px
+
+
    }
    .tab-title {
     padding: 10px; /* Поля вокруг текста */
@@ -60,16 +59,18 @@ body {
     text-transform: uppercase; /* Все буквы заглавные */
     font-weight: bold; /* Жирное начертание */
     cursor: pointer; /* Вид курсора */
+
    }
    .tab-title::after {
     content: '+'; /* Выводим плюс */
     float: right; /* Размещаем по правому краю */
+    color:#fff;
    }
    .tab-content {
     padding: 10px 20px; /* Поля вокруг текста */
    }
    .tab :checked + .tab-title {
-    background-color: #50a2de; /* Цвет фона */
+    background-color: #181818; /* Цвет фона */
     border-radius: 3px 3px 0 0; /* Скругляем уголки */
     color: #fff; /* Цвет текста */
    }
