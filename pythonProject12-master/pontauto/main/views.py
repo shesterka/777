@@ -10,10 +10,6 @@ def index(request):
 def about(request):
     return render(request, 'main/about.html')
 
-
-def tarif(request):
-    return render(request, 'main/tariff.html')
-
 def conditions(request):
     return render(request, 'main/conditions.html')
 
